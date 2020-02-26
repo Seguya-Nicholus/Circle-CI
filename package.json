@@ -1,0 +1,27 @@
+{
+  "name": "circle-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "jest-coverage": "npm run jest -- --coverage"
+  },
+  "jest":{
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seguya-Nicholus/Circle-CI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seguya-Nicholus/Circle-CI/issues"
+  },
+  "homepage": "https://github.com/Seguya-Nicholus/Circle-CI#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.9"
+  }
+}
